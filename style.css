@@ -7,7 +7,7 @@ html, body {
 header {
   grid-area: h;
   background-color: #003338;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Arial", monospace;
   text-align: center;
   letter-spacing: 2px; 
   color: #e6d9cc;
@@ -15,7 +15,7 @@ header {
   border-radius: 2px;
 }
 
-nav{
+nav {
   grid-area: n;
   padding: 25px;
   text-align: center;
@@ -23,7 +23,7 @@ nav{
   border-radius: 2px;
 }
 
-main{
+main {
   grid-area: m;
   padding: 10px;
   text-align: center;
@@ -42,8 +42,13 @@ footer {
   border-radius: 2px;
 }
 
-.intro{
+.para1 {
+  font-family: "Lucida Console", "Courier New";
+}
+
+.intro {
   text-decoration-line: underline;
+  text-decoration-color: lightsalmon;
 }
 
 
@@ -59,8 +64,18 @@ a:hover {
   color: gold;
 }
 
+.para2 {
+  font-variant: small-caps;
+  border-style: dotted;
+  border-color: antiquewhite;
+  color: #cc8033;
+}
+
 .concepts {
-  list-style-type: upper-roman; text-align: left;
+  list-style-type: upper-roman; 
+  text-align: left;
+  font-family: Ariel;
+  color: cornflowerblue;
 }
 
 .list1 {
@@ -73,6 +88,20 @@ a:hover {
 
 .list3 {
   list-style-type: lower-roman;
+}
+
+ol.concepts ol:nth-child(odd) li:nth-child(even) {
+  background-color: rgb(255, 165, 0);
+}
+
+ol.concepts ol:nth-child(even) li:nth-child(odd) {
+  background-color: rgb(255, 165, 0);
+}
+
+.p2header {
+  text-decoration-line: underline;
+  text-decoration-color: #cc8033;
+  text-decoration-style: wavy;
 }
 
 .table1 {
@@ -91,13 +120,25 @@ table {
   width: 100%:
 }
 
+th {
+  background-color: black;
+  color: white;
+}
+
+td {
+  background-color: antiquewhite;
+  color: cornflowerblue;
+  font-size: 1.5em;
+  font-family: "Times New Roman";
+}
+
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'h h h h'
-    'n m m m'
-    'n m m m'
+    'm m m n'
+    'm m m n'
     'f f f f';
   grid-gap: 10px;
 }
