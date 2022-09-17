@@ -34,6 +34,7 @@ main{
 footer {
   grid-area: f;
   background-color: #1a3300;
+  font-family: "Lucida Console", "Courier New", monospace;
   text-align: center;
   padding: 5px;
   font-size: 68%;
@@ -56,6 +57,22 @@ a:visited {
 
 a:hover {
   color: gold;
+}
+
+.concepts {
+  list-style-type: upper-roman; text-align: left;
+}
+
+.list1 {
+  list-style-type: lower-roman;
+}
+
+.list2 {
+  list-style-type: lower-roman;
+}
+
+.list3 {
+  list-style-type: lower-roman;
 }
 
 
