@@ -75,6 +75,22 @@ a:hover {
   list-style-type: lower-roman;
 }
 
+.table1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+  padding: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%:
+}
+
 
 .grid-container {
   display: grid;
