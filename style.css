@@ -132,6 +132,12 @@ td {
   font-family: "Times New Roman";
 }
 
+#yogaform {
+  font-family: "Arial";
+  text-transform: lowercase;
+  letter-spacing: 5px;
+}
+
 
 .grid-container {
   display: grid;
