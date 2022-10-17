@@ -50,7 +50,7 @@
 
         <label for="phonenumber">Phone Number:</label>
         <br>
-        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="###-###-####"><br><br>
+        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####"><br><br>
         
         <label for="user">Username:</label>
         <br>
@@ -58,18 +58,18 @@
 
         <label for="pword">Password:</label>
         <br>
-        <input type="password" id="pword" name="pword" minlength="8" placeholder="select password" required><br>    
-    
-        <input type="password" id="confirmpassword" name="confirmpassword" placeholder="retype password" required><br><br>
+        <input type="password" id="pword" name="pword" placeholder="select password" required><br><br>    
+
+        <label for="pword2">Password:</label>
+        <br>
+        <input type="password" id="pword2" name="pword2" placeholder="retype password" required><br><br>
         
-        <input type="submit" value="Submit">
-  <input type="reset">
+        <button type="submit" onclick="return validateMyForm()">Submit</button>
       </form>
   </main>
   
   <footer class="f">Elle Keres: keres_cassidy@columbusstate.edu</footer>
 
-  
-</body>
-
+        <script src="script.js"></script>
+     </body>
 </html>
