@@ -5,7 +5,7 @@ function validatePassword() {
 
   //seeing if each password matches
   if (password1 != password2) {
-    alert("validation failed false");
+    alert("Error: passwords don't match");
     return false;
   }
   
@@ -18,7 +18,7 @@ function validateUserName(){
   var nameEntered = document.getElementById("user").value;
 
   if (userNames.includes(nameEntered.toLowerCase())) {
-    alert("Name in use");
+    alert("Username in use");
     return false;
   }
   
