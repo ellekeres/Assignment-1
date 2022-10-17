@@ -14,7 +14,7 @@ function validatePassword() {
 }
 //making it to where these usernames cannot be used
 function validateUserName(){
-  var userNames = ["Harry", "Elizabeth", "Shana"]
+  var userNames = ["harry", "elizabeth", "shana"]
   var nameEntered = document.getElementById("user").value;
 
   if (userNames.includes(nameEntered.toLowerCase())) {
@@ -25,7 +25,7 @@ function validateUserName(){
   return true;
 }
 
-
+//runs all validations
 function validateMyForm() {
 
   if (validateUserName() && validatePassword()) {
