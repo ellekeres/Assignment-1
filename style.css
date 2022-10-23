@@ -31,6 +31,14 @@ main {
   border-radius: 2px;
 }
 
+aside {
+  grid-area: a;
+  padding: 10px;
+  text-align: center;
+  background-color: #cc8033;
+  border-radius: 2px;
+}
+
 footer {
   grid-area: f;
   background-color: #1a3300;
@@ -142,9 +150,9 @@ td {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'h h h h'
-    'm m m n'
-    'm m m n'
-    'f f f f';
+    'h h h'
+    'n m a'
+    'n m a'
+    'f f f';
   grid-gap: 10px;
 }
