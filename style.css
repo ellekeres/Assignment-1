@@ -156,7 +156,22 @@ td {
   grid-template-areas:
     'h h h'
     'n m a'
-    'n m a'
     'f f f';
   grid-gap: 10px;
+}
+
+@media screen and (max-width: 600px){
+  body {
+    background-color: #420042;
+  }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'h'
+    'n'
+    'm'
+    'a'
+    'f';
+  grid-gap: 10px;
+}
 }
