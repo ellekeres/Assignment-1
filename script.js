@@ -35,6 +35,7 @@ function validateMyForm() {
   return false;
 }
 
+
 //grabs the p1canvas DOM
 var canvas  = document.getElementById("p1canvas");
 
