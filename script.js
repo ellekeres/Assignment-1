@@ -34,4 +34,20 @@ function validateMyForm() {
   
   return false;
 }
+
+//grabs the p1canvas DOM
+var canvas  = document.getElementById("p1canvas");
+
+if (canvas.getContext) {   
+var ctx = canvas.getContext('2d');
+               
+ctx.fillStyle = '#ffffeb';
+ctx.font = 'Bold 10px Arial';
+               
+ctx.fillText('Happy Fall!', 30, 80);
+               
+} 
+else {
+  alert('Something Went Wrong');
+}
   

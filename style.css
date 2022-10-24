@@ -72,6 +72,10 @@ a:hover {
   color: gold;
 }
 
+#p1canvas {
+  border: 1px solid black;
+}
+
 .para2 {
   font-variant: small-caps;
   border-style: dotted;
@@ -125,7 +129,7 @@ table, th, td {
 
 table {
   border-collapse: collapse;
-  width: 100%:
+  width: 100%;
 }
 
 th {
